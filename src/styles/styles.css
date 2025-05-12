@@ -1,0 +1,96 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #0078d7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+/* Button styles */
+button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Container styles */
+.container {
+    max-width: 100%; /* Ensure it fits within the viewport */
+    margin: 0 auto; /* Center align on mobile */
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increased shadow size and opacity for more prominence */
+    display: inline-block; /* Allow the container to shrink to fit its content */
+    max-width: 50%; /* Ensure it doesn't exceed half the page width */
+    border: 1px solid #000000; /* Reduced border width for subtlety */
+}
+
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on mobile */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: flex-start; /* Align items to the left */
+    gap: 1rem; /* Add spacing between children */
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 75%; /* Occupy 75% of the screen width for larger screens */
+        margin: 0 auto; /* Center align horizontally */
+    }
+    .flex-container {
+        flex-direction: row; /* Horizontal alignment for larger screens */
+        justify-content: space-between; /* Distribute items evenly with space between */
+        align-items: center; /* Align children to the center vertically */
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 90%; /* Occupy 90% of the screen width for smaller screens */
+        margin: 0 auto; /* Center align horizontally */
+    }
+    .flex-container {
+        flex-direction: column; /* Stack items vertically for smaller screens */
+        gap: 1rem; /* Maintain spacing between children */
+    }
+}
+
+.borderLine {
+    border: 1px solid #000; /* Solid black border */
+    padding: 1rem; /* Add spacing between border and content */
+}

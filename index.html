@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <script type="module" src="./src/main.js"></script>
+    <!-- <link rel="icon" href="favicon.ico"> -->
+</head>
+
+<body>
+    <header>
+        <h1>RaD的分數計算機</h1>
+        <p>注意事項：為了最準確的計算結果，包含有多個下拉式清單的裝備區塊只應該會有一個下拉式清單是被選取的</p>
+        <p>Note: For the most accurate calculation results, only one dropdown menu in each equipment block with multiple
+            dropdown menus should be selected.</p>
+    </header>
+    <main>
+
+        <!-- 武器的部分 -->
+        <div class="container">
+            <h1>Select Weapon</h1>
+
+            <div class="flex-container">
+
+                <div class="borderLine">
+                    <h2>Select Your L-Arm weapon</h2>
+
+                    <figure>
+                        <img id="melee-weapon-select-left-arm-image" onerror="this.style.display = 'none';" alt="" />
+                        <img id="ranged-weapon-select-left-arm-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+                    <label for="melee-weapon-select-left-arm">Choose a Melee weapon:</label>
+                    <select id="melee-weapon-select-left-arm">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="ranged-weapon-select-left-arm">Choose a Ranged weapon:</label>
+                    <select id="ranged-weapon-select-left-arm">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+                </div>
+                <div class="borderLine">
+                    <h2>Select Your R-Arm weapon</h2>
+                    <figure>
+                        <img id="ranged-weapon-select-right-arm-image" onerror="this.style.display = 'none';" alt=""/>
+                    </figure>
+                    <label for="ranged-weapon-select-right-arm">Choose a Ranged weapon:</label>
+                    <select id="ranged-weapon-select-right-arm">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+
+                </div>
+            </div>
+            <br>
+            <div class="flex-container">
+
+                <div class="borderLine">
+                    <h2>Select Your L-Back weapon</h2>
+
+                    <figure>
+                        <img id="melee-weapon-select-left-back-image" onerror="this.style.display = 'none';" alt="" />
+                        <img id="ranged-weapon-select-left-back-image" onerror="this.style.display = 'none';" alt="" />
+                        <img id="back-weapon-select-left-back-image" onerror="this.style.display = 'none';" alt="" />
+                        <img id="back-weapon-shield-select-left-back-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+                    <label for="melee-weapon-select-left-back">Choose a Melee weapon:</label>
+                    <select id="melee-weapon-select-left-back">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+                    <br><br>
+                    <label for="ranged-weapon-select-left-back">Choose a Ranged weapon:</label>
+                    <select id="ranged-weapon-select-left-back">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+                    <br><br>
+                    <label for="back-weapon-select-left-back">Choose a Back weapon:</label>
+                    <select id="back-weapon-select-left-back">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+                    <br><br>
+                    <label for="back-weapon-shield-select-left-back">Choose a Back Shield weapon:</label>
+                    <select id="back-weapon-shield-select-left-back">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+                </div>
+
+                <br><br>
+
+                <div class="borderLine">
+                    <h2>Select Your R-back weapon</h2>
+
+                    <figure>
+                        <img id="ranged-weapon-select-right-back-image" onerror="this.style.display = 'none';" alt="" />
+                        <img id="back-weapon-select-right-back-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+                    <label for="ranged-weapon-select-right-back">Choose a Ranged weapon:</label>
+                    <select id="ranged-weapon-select-right-back">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="back-weapon-select-right-back">Choose a Back weapon:</label>
+                    <select id="back-weapon-select-right-back">
+                        <option value="default" disabled selected>Select a weapon</option>
+                    </select>
+                </div>
+            </div>
+            <br><br>
+
+
+        </div>
+        <br><br>
+
+        <!-- 身體的部分 -->
+        <div class="container">
+            <h1>Select Armored Core Parts</h1>
+            <div class="flex-container">
+                <div class="borderLine">
+                    <h2>Select your Head Part</h2>
+
+                    <figure>
+                        <img id="parts-head-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+                    <label for="parts-head-select">Choose a Head part:</label>
+                    <select id="parts-head-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+                </div>
+
+                <div class="borderLine">
+                    <h2>Select your Body Part</h2>
+                    <figure>
+                        <img id="parts-body-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+                    <label for="parts-body-select">Choose a Body part:</label>
+                    <select id="parts-body-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+            <br>
+            <div class="flex-container">
+                <div class="borderLine">
+                    <h2>Select your Arms Part</h2>
+                    <figure>
+                        <img id="parts-hand-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+
+                    <label for="parts-hand-select">Choose a Hand part:</label>
+                    <select id="parts-hand-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+                </div>
+
+                <div class="borderLine">
+
+                    <h2>Select your Legs Part</h2>
+                    <figure>
+                        <img id="parts-leg-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+
+                    <label for="parts-leg-select">Choose a Leg part:</label>
+                    <select id="parts-leg-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+        </div>
+        <br><br>
+        <!-- 內部零件的部分 -->
+        <div class="container">
+            <h1>Select Inner Parts</h1>
+            <div class="flex-container">
+                <div class="borderLine">
+                    <h2>Select your Booster</h2>
+
+                    <figure>
+                        <img id="booster-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+
+                    <label for="booster-select">Choose a Booster:</label>
+                    <select id="booster-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+                </div>
+
+                <div class="borderLine">
+                    <h2>Select your <br>Fire Control System</h2>
+
+                    <figure>
+                        <img id="fire-control-system-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+                    <label for="fire-control-system-select">Choose a Fire Control System:</label>
+                    <select id="fire-control-system-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="flex-container">
+                <div class="borderLine">
+                    
+                    <h2>Select your Generators</h2>
+
+                    <figure>
+                        <img id="generators-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+                    <label for="generators-select">Choose a Generator:</label>
+                    <select id="generators-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+                </div>
+
+                <div class="borderLine">
+
+                    <h2>Select your OS Extension</h2>
+
+                    <figure>
+                        <img id="OS_extension-select-image" onerror="this.style.display = 'none';" alt="" />
+                    </figure>
+
+                    <label for="OS_extension-select">Choose a Generator:</label>
+                    <select id="OS_extension-select">
+                        <option value="default" disabled selected>Select a part</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- 結算按鈕 -->
+        <div>
+            <h2>Calculate Total Score</h2>
+            <button id="calculate-score">Calculate Score</button>
+            <p id="total-score">Total Score: 0</p>
+        </div>
+
+
+    </main>
+
+
+</body>
+
+</html>

@@ -69,6 +69,20 @@ function unitSelect(selectId, dataArray) {
     });
 }
 
+// Define resetDropdowns as a standalone function
+function resetDropdowns(...selectIds) {
+    selectIds.forEach(selectId => {
+        const dropdown = document.getElementById(selectId);
+        if (dropdown) {
+            dropdown.selectedIndex = 0; // Reset to the default option
+        } else {
+            console.error(`Dropdown with id "${selectId}" not found.`);
+        }
+    });
+}
+
+window.resetDropdowns = resetDropdowns;
+
 
 unitSelect("melee-weapon-select-left-arm", arm_weapon_melee);
 

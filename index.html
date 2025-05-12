@@ -45,18 +45,31 @@
                     <select id="ranged-weapon-select-left-arm">
                         <option value="default" disabled selected>Select a weapon</option>
                     </select>
+
+                    <br><br>
+
+                    <button id="reset-dropdowns-L-Arm"
+                        onclick="resetDropdowns('melee-weapon-select-left-arm', 'ranged-weapon-select-left-arm')">Reset L-Arm Weapon
+                    </button>
                 </div>
                 <div class="borderLine">
                     <h2>Select Your R-Arm weapon</h2>
                     <figure>
-                        <img id="ranged-weapon-select-right-arm-image" onerror="this.style.display = 'none';" alt=""/>
+                        <img id="ranged-weapon-select-right-arm-image" onerror="this.style.display = 'none';" alt="" />
                     </figure>
                     <label for="ranged-weapon-select-right-arm">Choose a Ranged weapon:</label>
                     <select id="ranged-weapon-select-right-arm">
                         <option value="default" disabled selected>Select a weapon</option>
                     </select>
 
+                    <br><br>
+
+                    <button id="reset-dropdowns-R-Arm"
+                        onclick="resetDropdowns('ranged-weapon-select-right-arm')">Reset L-Arm Weapon
+                    </button>
+
                 </div>
+
             </div>
             <br>
             <div class="flex-container">
@@ -71,7 +84,8 @@
                         <br>
                         <img id="back-weapon-select-left-back-image" onerror="this.style.display = 'none';" alt="" />
                         <br>
-                        <img id="back-weapon-shield-select-left-back-image" onerror="this.style.display = 'none';" alt="" />
+                        <img id="back-weapon-shield-select-left-back-image" onerror="this.style.display = 'none';"
+                            alt="" />
                         <br>
                     </figure>
 
@@ -94,6 +108,12 @@
                     <select id="back-weapon-shield-select-left-back">
                         <option value="default" disabled selected>Select a weapon</option>
                     </select>
+
+                    <br><br>
+
+                    <button id="reset-dropdowns-L-back"
+                        onclick="resetDropdowns('melee-weapon-select-left-back', 'ranged-weapon-select-left-back', 'back-weapon-select-left-back', 'back-weapon-shield-select-left-back')">Reset L-back Weapon
+                    </button>
                 </div>
 
                 <br><br>
@@ -119,6 +139,12 @@
                     <select id="back-weapon-select-right-back">
                         <option value="default" disabled selected>Select a weapon</option>
                     </select>
+
+                    <br><br>
+
+                    <button id="reset-dropdowns-R-back"
+                        onclick="resetDropdowns('ranged-weapon-select-right-back', 'back-weapon-select-right-back')">Reset R-back Weapon
+                    </button>
                 </div>
             </div>
             <br><br>
@@ -142,6 +168,10 @@
                     <select id="parts-head-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-head"
+                        onclick="resetDropdowns('parts-head-select')">Reset Head Part
+                    </button>
                 </div>
 
                 <div class="borderLine">
@@ -154,6 +184,10 @@
                     <select id="parts-body-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-body"
+                        onclick="resetDropdowns('parts-body-select')">Reset Body Part
+                    </button>
                 </div>
 
 
@@ -172,6 +206,10 @@
                     <select id="parts-hand-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-hand"
+                        onclick="resetDropdowns('parts-hand-select')">Reset Arms Part
+                    </button>
                 </div>
 
                 <div class="borderLine">
@@ -186,6 +224,10 @@
                     <select id="parts-leg-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-leg"
+                        onclick="resetDropdowns('parts-leg-select')">Reset Legs Part
+                    </button>
 
                 </div>
 
@@ -209,6 +251,10 @@
                     <select id="booster-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-booster"
+                        onclick="resetDropdowns('booster-select')">Reset Booster
+                    </button>
                 </div>
 
                 <div class="borderLine">
@@ -221,12 +267,16 @@
                     <select id="fire-control-system-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-fire-control-system"
+                        onclick="resetDropdowns('fire-control-system-select')">Reset Fire Control System
+                    </button>
                 </div>
             </div>
             <br>
             <div class="flex-container">
                 <div class="borderLine">
-                    
+
                     <h2>Select your Generators</h2>
 
                     <figure>
@@ -237,6 +287,10 @@
                     <select id="generators-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-generators"
+                        onclick="resetDropdowns('generators-select')">Reset Generators
+                    </button>
                 </div>
 
                 <div class="borderLine">
@@ -251,6 +305,10 @@
                     <select id="OS_extension-select">
                         <option value="default" disabled selected>Select a part</option>
                     </select>
+                    <br><br>
+                    <button id="reset-dropdowns-OS_extension"
+                        onclick="resetDropdowns('OS_extension-select')">Reset OS Extension
+                    </button>
                 </div>
 
             </div>

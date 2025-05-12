@@ -26,4 +26,4 @@ About half of the files were pieced together from various references, so be ment
 
 
 
-## 網站連結：https://aabb987.github.io/RaD_Score_Calculator/
+## 網站連結：https://aabb987.github.io/RaD_Score_Calculator_new/

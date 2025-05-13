@@ -119,7 +119,7 @@ $(document).on('mouseenter', '.select2-results__option', function () {
     const imgSrc = $(this).find('img').attr('src');
     if (imgSrc) {
         const tooltip = $(`<div id="image-tooltip" style="position: absolute; z-index: 9999; background: #fff; border: 1px solid #ccc; padding: 5px;">
-            <img src="${imgSrc}" style="width: 100px; height: 100px;" />
+            <img src="${imgSrc}" style="width: 200px; height: 150px;" />
         </div>`);
         $('body').append(tooltip);
         $(this).on('mousemove', function (e) {

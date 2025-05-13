@@ -58,11 +58,22 @@ function unitSelect(selectId, dataArray) {
     });
 
     // Add an event listener to update the image when an option is selected
-    selectElement.addEventListener("change", function () {
-        const selectedOption = selectElement.options[selectElement.selectedIndex];
+    // selectElement.addEventListener("change", function () { 這裡是非select2之前的用法
+    //     const selectedOption = selectElement.options[selectElement.selectedIndex];
+    //     const imageElement = document.getElementById(`${selectId}-image`);
+    //     if (imageElement && selectedOption.dataset.src) {
+    //         imageElement.src = selectedOption.dataset.src;
+    //     } else {
+    //         console.error(`Image element with id "${selectId}-image" not found or src not set.`);
+    //     }
+    // });
+    // this is for select2
+    $(`#${selectId}`).on("select2:select", function (e) {
+        const selectedOption = e.params.data.element;
+        const imgSrc = $(selectedOption).data('src');
         const imageElement = document.getElementById(`${selectId}-image`);
-        if (imageElement && selectedOption.dataset.src) {
-            imageElement.src = selectedOption.dataset.src;
+        if (imageElement && imgSrc) {
+            imageElement.src = imgSrc;
         } else {
             console.error(`Image element with id "${selectId}-image" not found or src not set.`);
         }
@@ -135,6 +146,12 @@ $(document).on('mouseleave', '.select2-results__option', function () {
     $('#image-tooltip').remove();
     $(this).off('mousemove');
 });
+
+$(document).on('mouseup', '.select2-results__option', function () {
+    $('#image-tooltip').remove();
+    $(this).off('mousemove');
+});
+
 
 unitSelect("melee-weapon-select-left-arm", arm_weapon_melee);
 

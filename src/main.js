@@ -30,7 +30,7 @@ document.getElementById("calculate-score").addEventListener("click", function ()
     document.getElementById("total-score").textContent = "Total Score: " + totalScore;
 });
 
-document.getElementById
+
 
 
 

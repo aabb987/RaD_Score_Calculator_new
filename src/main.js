@@ -19,7 +19,7 @@ document.getElementById("calculate-score").addEventListener("click", function ()
     selects.forEach(select => {
         const selectedOption = select.options[select.selectedIndex];
         if (selectedOption && selectedOption.value !== "default") {
-            const selectedItem = [...arm_weapon_ranged, ...arm_weapon_melee, ...back_weapon, ...back_weapon_shield, ...parts_head, ...parts_body, ...parts_hand, ...parts_leg, ...booster, ...fire_control_system, ...generators].find(item => item.id === selectedOption.value);
+            const selectedItem = [...arm_weapon_ranged, ...arm_weapon_melee, ...back_weapon, ...back_weapon_shield, ...parts_head, ...parts_body, ...parts_hand, ...parts_leg, ...booster, ...fire_control_system, ...generators, ...OS_extension].find(item => item.id === selectedOption.value);
             if (selectedItem) {
                 console.log("Selected Option Value:", selectedOption.value);
                 console.log("Selected Item:", selectedItem);

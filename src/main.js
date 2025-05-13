@@ -83,6 +83,10 @@ function resetDropdowns(...selectIds) {
 
 window.resetDropdowns = resetDropdowns;
 
+$('.select-enhanced').select2({
+    placeholder: "Select a weapon",
+    allowClear: true
+});
 
 unitSelect("melee-weapon-select-left-arm", arm_weapon_melee);
 

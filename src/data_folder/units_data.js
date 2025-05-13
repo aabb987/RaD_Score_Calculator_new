@@ -141,7 +141,7 @@ export const parts_head = [
     { id: "123", name: "HC-3000 WRECKER", score: "0", src: "./src/data_folder/picture/parts_head/123_-_Part_icon_ACVI_HC-3000_WRECKER.webp" },
     { id: "124", name: "HS-5000 APPETIZER", score: "3", src: "./src/data_folder/picture/parts_head/124_-_Part_icon_ACVI_HS-5000_APPETIZER.webp" },
     { id: "125", name: "EL-TH-10 FIRMEZA", score: "0", src: "./src/data_folder/picture/parts_head/125_-_Part_icon_ACVI_EL-TH-10_FIRMEZA.webp" },
-    { id: "126", name: "EL-PH-00 ALBA", score: "0", src: "./src/data_folder/picture/parts_head/126_-_Part_icon_ACVI_EL-PH-00_ALBA.webp" },
+    { id: "126", name: "EL-PH-00 ALBA", score: "2", src: "./src/data_folder/picture/parts_head/126_-_Part_icon_ACVI_EL-PH-00_ALBA.webp" },
     { id: "127", name: "20-081 MIND ALPHA", score: "4", src: "./src/data_folder/picture/parts_head/127_-_Part_icon_ACVI_20-081_MIND_ALPHA.webp" },
     { id: "128", name: "20-082 MIND BETA", score: "4", src: "./src/data_folder/picture/parts_head/128_-_Part_icon_ACVI_20-082_MIND_BETA.webp" },
     { id: "129", name: "IA-C01H: EPHEMERA", score: "5", src: "./src/data_folder/picture/parts_head/129_-_Part_icon_ACVI_IA-C01H_EPHEMERA.webp" },

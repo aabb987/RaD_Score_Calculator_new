@@ -70,11 +70,23 @@ function unitSelect(selectId, dataArray) {
 }
 
 // Define resetDropdowns as a standalone function
+
+// function resetDropdowns(...selectIds) { 這裡是非select2之前的用法
+//     selectIds.forEach(selectId => {
+//         const dropdown = document.getElementById(selectId);
+//         if (dropdown) {
+//             dropdown.selectedIndex = 0; // Reset to the default option
+//         } else {
+//             console.error(`Dropdown with id "${selectId}" not found.`);
+//         }
+//     });
+// }
+
 function resetDropdowns(...selectIds) {
     selectIds.forEach(selectId => {
-        const dropdown = document.getElementById(selectId);
-        if (dropdown) {
-            dropdown.selectedIndex = 0; // Reset to the default option
+        const dropdown = $(`#${selectId}`);
+        if (dropdown.length) {
+            dropdown.val(null).trigger('change'); // Reset select2 dropdown
         } else {
             console.error(`Dropdown with id "${selectId}" not found.`);
         }
@@ -85,7 +97,43 @@ window.resetDropdowns = resetDropdowns;
 
 $('.select-enhanced').select2({
     placeholder: "Select a weapon",
-    allowClear: true
+    allowClear: true,
+    templateResult: function (data) {
+        if (!data.id) {
+            return data.text;
+        }
+        const imgSrc = $(data.element).data('src'); // 假設你在 <option> 中添加了 data-src 屬性
+        return $(`<span><img src="${imgSrc}" style="width: 20px; height: 20px; margin-right: 10px;" /> ${data.text}</span>`);
+    },
+    templateSelection: function (data) {
+        if (!data.id) {
+            return data.text;
+        }
+        const imgSrc = $(data.element).data('src');
+        return $(`<span>${data.text}</span>`);
+    }
+});
+
+// Add hover effect to display the image
+$(document).on('mouseenter', '.select2-results__option', function () {
+    const imgSrc = $(this).find('img').attr('src');
+    if (imgSrc) {
+        const tooltip = $(`<div id="image-tooltip" style="position: absolute; z-index: 9999; background: #fff; border: 1px solid #ccc; padding: 5px;">
+            <img src="${imgSrc}" style="width: 100px; height: 100px;" />
+        </div>`);
+        $('body').append(tooltip);
+        $(this).on('mousemove', function (e) {
+            $('#image-tooltip').css({
+                top: e.pageY + 10 + 'px',
+                left: e.pageX + 10 + 'px'
+            });
+        });
+    }
+});
+
+$(document).on('mouseleave', '.select2-results__option', function () {
+    $('#image-tooltip').remove();
+    $(this).off('mousemove');
 });
 
 unitSelect("melee-weapon-select-left-arm", arm_weapon_melee);

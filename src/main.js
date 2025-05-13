@@ -52,7 +52,7 @@ function unitSelect(selectId, dataArray) {
     dataArray.forEach(item => {
         const option = document.createElement("option");
         option.value = item.id;
-        option.textContent = item.name;
+        option.textContent = item.name + " | score: " + item.score;
         option.dataset.src = item.src; // Add the src as a data attribute
         selectElement.appendChild(option);
     });

@@ -94,3 +94,26 @@ footer {
     border: 1px solid #000; /* Solid black border */
     padding: 1rem; /* Add spacing between border and content */
 }
+
+.bottomdiv {
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    width: auto; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+    padding: 10px; 
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top_right_div {
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    width: auto; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+    padding: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Adjusted shadow for consistency */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+}

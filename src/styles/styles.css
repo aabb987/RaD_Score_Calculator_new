@@ -67,7 +67,7 @@ footer {
     gap: 1rem; /* Add spacing between children */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1050px) {
     .container {
         max-width: 75%; /* Occupy 75% of the screen width for larger screens */
         margin: 0 auto; /* Center align horizontally */
@@ -79,16 +79,6 @@ footer {
     }
 }
 
-@media (max-width: 767px) {
-    .container {
-        max-width: 90%; /* Occupy 90% of the screen width for smaller screens */
-        margin: 0 auto; /* Center align horizontally */
-    }
-    .flex-container {
-        flex-direction: column; /* Stack items vertically for smaller screens */
-        gap: 1rem; /* Maintain spacing between children */
-    }
-}
 
 .borderLine {
     border: 1px solid #000; /* Solid black border */

@@ -129,12 +129,15 @@ $('.select-enhanced').select2({
 $(document).on('mouseenter', '.select2-results__option', function () {
     const imgSrc = $(this).find('img').attr('src');
     if (imgSrc) {
+        // const tooltip = $(`<div id="image-tooltip" style="position: absolute; z-index: 9999; background: #fff; border: 1px solid #ccc; padding: 5px;">
+        //     <img src="${imgSrc}" style="width: 200px; height: 150px;" />
+        // </div>`); 鼠標圖片功能
         const tooltip = $(`<div id="image-tooltip" class="top_right_div">
             <img src="${imgSrc}" style="width: 200px; height: 150px;" />
         </div>`);
         $('body').append(tooltip);
         $(this).on('mousemove', function (e) {
-            // $('#image-tooltip').css({
+            // $('#image-tooltip').css({  鼠標圖片功能
             //     top: e.pageY + 10 + 'px',
             //     left: e.pageX + 10 + 'px'
             // });
@@ -142,7 +145,15 @@ $(document).on('mouseenter', '.select2-results__option', function () {
     }
 });
 
+// $(document).on('mouseleave', '.select2-results__option', function () { 鼠標圖片功能
+//     $('#image-tooltip').remove();
+//     $(this).off('mousemove');
+// });
 
+// $(document).on('mouseup', '.select2-results__option', function () {
+//     $('#image-tooltip').remove();
+//     $(this).off('mousemove');
+// });
 
 
 unitSelect("melee-weapon-select-left-arm", arm_weapon_melee);

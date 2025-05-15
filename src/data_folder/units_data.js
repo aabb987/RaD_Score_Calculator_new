@@ -1,6 +1,6 @@
 //手部槍械武器
 export const arm_weapon_ranged = [
-    { id: "1", name: "MA-J-200 RANSETSU-RF", score: "2", src: "./src/data_folder/picture/arm_weapon_ranged/01_-_MA-J-200_RANSETSU-RF.webp" },
+    { id: "1", name: "MA-J-200 RANSETSU-RF", score: "3", src: "./src/data_folder/picture/arm_weapon_ranged/01_-_MA-J-200_RANSETSU-RF.webp" },
     { id: "2", name: "LR-036 CURTIS", score: "2", src: "./src/data_folder/picture/arm_weapon_ranged/02_-_LR-036_CURTIS.webp" },
     { id: "3", name: "LR-037 HARRIS", score: "4", src: "./src/data_folder/picture/arm_weapon_ranged/03_-_LR-037_HARRIS.webp" },
     { id: "4", name: "RF-024 TURNER", score: "0", src: "./src/data_folder/picture/arm_weapon_ranged/04_-_RF-024_TURNER.webp" },
@@ -16,7 +16,7 @@ export const arm_weapon_ranged = [
     { id: "14", name: "WR-0777 SWEET SIXTEEN", score: "2", src: "./src/data_folder/picture/arm_weapon_ranged/14_-_WR-0777_SWEET_SIXTEEN.webp" },
     { id: "15", name: "HG-003 COQUILLETT", score: "3", src: "./src/data_folder/picture/arm_weapon_ranged/15_-_HG-003_COQUILLETT.webp" },
     { id: "16", name: "HG-004 DUCKETT", score: "4", src: "./src/data_folder/picture/arm_weapon_ranged/16_-_HG-004_DUCKETT.webp" },
-    { id: "17", name: "MA-E-211 SAMPU", score: "1.5", src: "./src/data_folder/picture/arm_weapon_ranged/17_-_MA-E-211_Sampu.webp" },
+    { id: "17", name: "MA-E-211 SAMPU", score: "1", src: "./src/data_folder/picture/arm_weapon_ranged/17_-_MA-E-211_Sampu.webp" },
     { id: "18", name: "EL-PW-00 VIENTO", score: "2", src: "./src/data_folder/picture/arm_weapon_ranged/18_-_EL-PW-00_VIENTO.webp" },
     { id: "19", name: "VP-66EG", score: "5", src: "./src/data_folder/picture/arm_weapon_ranged/19_-_Vp-66eg.webp" },
     { id: "20", name: "DF-BA-06 XUAN-GE", score: "2", src: "./src/data_folder/picture/arm_weapon_ranged/20_-_DF-BA-06_XUAN-GE.webp" },
@@ -51,12 +51,12 @@ export const arm_weapon_ranged = [
 
 //手部近戰武器
 export const arm_weapon_melee = [
-    { id: "48", name: "PB-033M ASHMEAD", score: "1", src: "./src/data_folder/picture/arm_weapon_melee/48_-_PB-033M_ASHMEAD.webp" }, 
+    { id: "48", name: "PB-033M ASHMEAD", score: "0", src: "./src/data_folder/picture/arm_weapon_melee/48_-_PB-033M_ASHMEAD.webp" }, 
     { id: "49", name: "DF-ET-09 TAI-YANG-SHOU", score: "4", src: "./src/data_folder/picture/arm_weapon_melee/49_-_DF-ET-09_TAI-YANG-SHOU.webp" },
     { id: "50", name: "WB-0010 DOUBLE TROUBLE", score: "-1", src: "./src/data_folder/picture/arm_weapon_melee/50_-_WB-0010_DOUBLE_TROUBLE.webp" },
     { id: "51", name: "VP-67EB", score: "-1", src: "./src/data_folder/picture/arm_weapon_melee/51_-_VP-67EB.webp" },
     { id: "52", name: "VP-67LD", score: "2", src: "./src/data_folder/picture/arm_weapon_melee/52_-_VP-67LD.webp" },
-    { id: "53", name: "Vvc-770LB", score: "1", src: "./src/data_folder/picture/arm_weapon_melee/53_-_Vvc-770LB.webp" },
+    { id: "53", name: "Vvc-770LB", score: "0", src: "./src/data_folder/picture/arm_weapon_melee/53_-_Vvc-770LB.webp" },
     { id: "54", name: "Vvc-774LS", score: "2", src: "./src/data_folder/picture/arm_weapon_melee/54_-_Vvc-774LS.webp" },
     { id: "55", name: "VE-67LLA", score: "-1", src: "./src/data_folder/picture/arm_weapon_melee/55_-_VE-67LLA.webp" },
     { id: "56", name: "44-143 HMMR", score: "4", src: "./src/data_folder/picture/arm_weapon_melee/56_-_44-143_HMMR.webp" },
@@ -118,7 +118,7 @@ export const back_weapon_shield = [
     { id: "104", name: "VP-61PB", score: "5", src: "./src/data_folder/picture/back_weapon_shield/104_-_VP-61PB.webp" },
     { id: "105", name: "SI-29: SU-TT/C", score: "3", src: "./src/data_folder/picture/back_weapon_shield/105_-_SI-29_SU-TT_C.webp" },
     { id: "106", name: "VE-61PSA", score: "3", src: "./src/data_folder/picture/back_weapon_shield/106_-_VE-61PSA.webp" },
-    { id: "107", name: "IB-C03W4: NGI 028", score: "1", src: "./src/data_folder/picture/back_weapon_shield/107_-_IB-C03W4_NGI_028.webp" }
+    { id: "107", name: "IB-C03W4: NGI 028", score: "0", src: "./src/data_folder/picture/back_weapon_shield/107_-_IB-C03W4_NGI_028.webp" }
 ];
 
 // 頭部
@@ -160,9 +160,9 @@ export const parts_body = [
     { id: "138", name: "LAMMERGEIER/40F", score: "5", src: "./src/data_folder/picture/parts_body/138_-_LAMMERGEIER-40F.webp" },
     { id: "139", name: "VE-40A", score: "5", src: "./src/data_folder/picture/parts_body/139_-_Part_icon_ACVI_VE-40A.webp" },
     { id: "140", name: "CC-2000 ORBITER", score: "0", src: "./src/data_folder/picture/parts_body/140_-_Part_icon_ACVI_CC-2000_ORBITER.webp" },
-    { id: "141", name: "CC-3000 WRECKER", score: "3", src: "./src/data_folder/picture/parts_body/141_-_Part_icon_ACVI_CC-3000_WRECKER.webp" },
+    { id: "141", name: "CC-3000 WRECKER", score: "2", src: "./src/data_folder/picture/parts_body/141_-_Part_icon_ACVI_CC-3000_WRECKER.webp" },
     { id: "142", name: "CS-5000 MAIN DISH", score: "5", src: "./src/data_folder/picture/parts_body/142_-_Part_icon_ACVI_CS-5000_MAIN_DISH.webp" },
-    { id: "143", name: "EL-TC-10 FIRMEZA", score: "1", src: "./src/data_folder/picture/parts_body/143_-_Part_icon_ACVI_EL-TC-10_FIRMEZA.webp" },
+    { id: "143", name: "EL-TC-10 FIRMEZA", score: "0", src: "./src/data_folder/picture/parts_body/143_-_Part_icon_ACVI_EL-TC-10_FIRMEZA.webp" },
     { id: "144", name: "EL-PC-00 ALBA", score: "2", src: "./src/data_folder/picture/parts_body/144_-_Part_icon_ACVI_EL-PC-00_ALBA.webp" },
     { id: "145", name: "07-061 MIND ALPHA", score: "5", src: "./src/data_folder/picture/parts_body/145_-_Part_icon_ACVI_ACVI_07-061_MIND_ALPHA.webp" },
     { id: "146", name: "IA-C01C: EPHEMERA", score: "1", src: "./src/data_folder/picture/parts_body/146_-_Part_icon_ACVI_IA-C01C_EPHEMERA.webp" },
@@ -203,7 +203,7 @@ export const parts_leg = [
     { id: "172", name: "NACHTREIHER/42E", score: "5", src: "./src/data_folder/picture/parts_leg/172_-_Part_icon_ACVI_NACHTREIHER_42E.webp" },
     { id: "173", name: "VE-42A", score: "5", src: "./src/data_folder/picture/parts_leg/173_-_Part_icon_ACVI_VE-42A.webp" },
     { id: "174", name: "2C-2000 CRAWLER", score: "0", src: "./src/data_folder/picture/parts_leg/174_-_Part_icon_ACVI_2C-2000_CRAWLER.webp" },
-    { id: "175", name: "2C-3000 WRECKER", score: "3", src: "./src/data_folder/picture/parts_leg/175_-_Part_icon_ACVI_2C-3000_WRECKER.webp" },
+    { id: "175", name: "2C-3000 WRECKER", score: "2", src: "./src/data_folder/picture/parts_leg/175_-_Part_icon_ACVI_2C-3000_WRECKER.webp" },
     { id: "176", name: "2S-5000 DESSERT", score: "4", src: "./src/data_folder/picture/parts_leg/176_-_Part_icon_ACVI_2S-5000_DESSERT.webp" },
     { id: "177", name: "EL-TL-10 FIRMEZA", score: "1", src: "./src/data_folder/picture/parts_leg/177_-_Part_icon_ACVI_EL-TL-10_FIRMEZA.webp" },
     { id: "178", name: "EL-PL-00 ALBA", score: "3", src: "./src/data_folder/picture/parts_leg/178_-_Part_icon_ACVI_EL-PL-00_ALBA.webp" },
@@ -211,11 +211,11 @@ export const parts_leg = [
     { id: "180", name: "IA-C01L: EPHEMERA", score: "0", src: "./src/data_folder/picture/parts_leg/180_-_Part_icon_ACVI_IA-C01L_EPHEMERA.webp" },
     { id: "181", name: "IB-C03L: HAL 826", score: "3", src: "./src/data_folder/picture/parts_leg/181_-_Part_icon_ACVI_IB-C03L_HAL_826.webp" },
     { id: "182", name: "KASUAR/42Z", score: "1", src: "./src/data_folder/picture/parts_leg/182_-_Part_icon_ACVI_KASUAR_42Z.webp" },
-    { id: "183", name: "RC-2000 SPRING CHICKEN", score: "1", src: "./src/data_folder/picture/parts_leg/183_-_Part_icon_ACVI_RC-2000_SPRING_CHICKEN.webp" },
+    { id: "183", name: "RC-2000 SPRING CHICKEN", score: "0", src: "./src/data_folder/picture/parts_leg/183_-_Part_icon_ACVI_RC-2000_SPRING_CHICKEN.webp" },
     { id: "184", name: "06-042 MIND BETA", score: "6", src: "./src/data_folder/picture/parts_leg/184_-_Part_icon_ACVI_06-042_MIND_BETA.webp" },
     { id: "185", name: "LG-033M VERRILL", score: "6", src: "./src/data_folder/picture/parts_leg/185_-_Part_icon_ACVI_LG-033M_VERRILL.webp" },
     { id: "186", name: "VP-424", score: "7", src: "./src/data_folder/picture/parts_leg/186_-_Part_icon_ACVI_VP-424.webp" },
-    { id: "187", name: "LAMMERGEIER/42F", score: "5", src: "./src/data_folder/picture/parts_leg/187_-_LAMMERGEIER-42F.webp" },
+    { id: "187", name: "LAMMERGEIER/42F", score: "7", src: "./src/data_folder/picture/parts_leg/187_-_LAMMERGEIER-42F.webp" },
     { id: "188", name: "LG-022T BORNEMISSZA", score: "8", src: "./src/data_folder/picture/parts_leg/188_-_Part_icon_ACVI_LG-022T_BORNEMISSZA.webp" },
     { id: "189", name: "VE-42B", score: "8", src: "./src/data_folder/picture/parts_leg/189_-_Part_icon_ACVI_VE-42B.webp" },
     { id: "190", name: "EL-TL-11 FORTALEZA", score: "6", src: "./src/data_folder/picture/parts_leg/190_-_Part_icon_ACVI_EL-TL-11_FORTALEZA.webp" }

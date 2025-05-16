@@ -212,13 +212,13 @@ export const parts_leg = [
     { id: "181", name: "IB-C03L: HAL 826", score: "3", src: "./src/data_folder/picture/parts_leg/181_-_Part_icon_ACVI_IB-C03L_HAL_826.webp" },
     { id: "182", name: "KASUAR/42Z", score: "1", src: "./src/data_folder/picture/parts_leg/182_-_Part_icon_ACVI_KASUAR_42Z.webp" },
     { id: "183", name: "RC-2000 SPRING CHICKEN", score: "0", src: "./src/data_folder/picture/parts_leg/183_-_Part_icon_ACVI_RC-2000_SPRING_CHICKEN.webp" },
-    { id: "184", name: "06-042 MIND BETA", score: "6", src: "./src/data_folder/picture/parts_leg/184_-_Part_icon_ACVI_06-042_MIND_BETA.webp" },
-    { id: "185", name: "LG-033M VERRILL", score: "6", src: "./src/data_folder/picture/parts_leg/185_-_Part_icon_ACVI_LG-033M_VERRILL.webp" },
-    { id: "186", name: "VP-424", score: "7", src: "./src/data_folder/picture/parts_leg/186_-_Part_icon_ACVI_VP-424.webp" },
+    { id: "184", name: "06-042 MIND BETA", score: "4", src: "./src/data_folder/picture/parts_leg/184_-_Part_icon_ACVI_06-042_MIND_BETA.webp" },
+    { id: "185", name: "LG-033M VERRILL", score: "4", src: "./src/data_folder/picture/parts_leg/185_-_Part_icon_ACVI_LG-033M_VERRILL.webp" },
+    { id: "186", name: "VP-424", score: "5", src: "./src/data_folder/picture/parts_leg/186_-_Part_icon_ACVI_VP-424.webp" },
     { id: "187", name: "LAMMERGEIER/42F", score: "7", src: "./src/data_folder/picture/parts_leg/187_-_LAMMERGEIER-42F.webp" },
     { id: "188", name: "LG-022T BORNEMISSZA", score: "8", src: "./src/data_folder/picture/parts_leg/188_-_Part_icon_ACVI_LG-022T_BORNEMISSZA.webp" },
     { id: "189", name: "VE-42B", score: "8", src: "./src/data_folder/picture/parts_leg/189_-_Part_icon_ACVI_VE-42B.webp" },
-    { id: "190", name: "EL-TL-11 FORTALEZA", score: "6", src: "./src/data_folder/picture/parts_leg/190_-_Part_icon_ACVI_EL-TL-11_FORTALEZA.webp" }
+    { id: "190", name: "EL-TL-11 FORTALEZA", score: "7", src: "./src/data_folder/picture/parts_leg/190_-_Part_icon_ACVI_EL-TL-11_FORTALEZA.webp" }
 ];
 
 // 推進器

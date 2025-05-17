@@ -155,7 +155,7 @@ export const parts_body = [
     { id: "133", name: "BD-011 MELANDER", score: "2", src: "./src/data_folder/picture/parts_body/133_-_Part_icon_ACVI_BD-011_MELANDER.webp" },
     { id: "134", name: "BD-012 MELANDER C3", score: "4", src: "./src/data_folder/picture/parts_body/134_-_Part_icon_ACVI_BD-012_MELANDER_C3.webp" },
     { id: "135", name: "DF-BD-08 TIAN-QIANG", score: "4", src: "./src/data_folder/picture/parts_body/135_-_Part_icon_ACVI_DF-BD-08_TIAN-QIANG.webp" },
-    { id: "136", name: "VP-40S", score: "3", src: "./src/data_folder/picture/parts_body/136_-_Part_icon_ACVI_DF-BD-08_TIAN-QIANG.webp" },
+    { id: "136", name: "VP-40S", score: "3", src: "./src/data_folder/picture/parts_body/136-_-Part_icon_ACVI_VP-40S.webp" },
     { id: "137", name: "NACHTREIHER/40E", score: "3", src: "./src/data_folder/picture/parts_body/137_-_Part_icon_ACVI_NACHTREIHER_40E.webp" },
     { id: "138", name: "LAMMERGEIER/40F", score: "5", src: "./src/data_folder/picture/parts_body/138_-_LAMMERGEIER-40F.webp" },
     { id: "139", name: "VE-40A", score: "5", src: "./src/data_folder/picture/parts_body/139_-_Part_icon_ACVI_VE-40A.webp" },

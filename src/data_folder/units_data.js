@@ -194,7 +194,7 @@ export const parts_hand = [
 
 // 腿部
 export const parts_leg = [
-    { id: "166", name: "AL-J-121 BASHO", score: "1", src: "./src/data_folder/picture/parts_leg/166_-_Part_icon_ACVI_AL-J-121_BASHO.webp" },
+    { id: "166", name: "AL-J-121 BASHO", score: "2", src: "./src/data_folder/picture/parts_leg/166_-_Part_icon_ACVI_AL-J-121_BASHO.webp" },
     { id: "167", name: "AL-J-121/RC JAILBREAK", score: "-1", src: "./src/data_folder/picture/parts_leg/167_-_Part_icon_ACVI_AL-J-121_RC_JAILBREAK.webp" },
     { id: "168", name: "LG-011 MELANDER", score: "3", src: "./src/data_folder/picture/parts_leg/168_-_Part_icon_ACVI_LG-011_MELANDER.webp" },
     { id: "169", name: "LG-012 MELANDER C3", score: "4", src: "./src/data_folder/picture/parts_leg/169_-_Part_icon_LG-012_MELANDER_C3.webp" },

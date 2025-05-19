@@ -194,85 +194,86 @@ export const parts_hand = [
 
 // 腿部
 export const parts_leg = [
-    { id: "166", name: "AL-J-121 BASHO", score: "1", src: "./src/data_folder/picture/parts_leg/166_-_Part_icon_ACVI_AL-J-121_BASHO.webp" },
-    { id: "167", name: "AL-J-121/RC JAILBREAK", score: "-1", src: "./src/data_folder/picture/parts_leg/167_-_Part_icon_ACVI_AL-J-121_RC_JAILBREAK.webp" },
-    { id: "168", name: "LG-011 MELANDER", score: "3", src: "./src/data_folder/picture/parts_leg/168_-_Part_icon_ACVI_LG-011_MELANDER.webp" },
-    { id: "169", name: "LG-012 MELANDER C3", score: "4", src: "./src/data_folder/picture/parts_leg/169_-_Part_icon_LG-012_MELANDER_C3.webp" },
-    { id: "170", name: "DF-LG-08 TIAN-QIANG", score: "4", src: "./src/data_folder/picture/parts_leg/170_-_Part_icon_ACVI_DF-LG-08_TIAN-QIANG.webp" },
-    { id: "171", name: "VP-422", score: "3", src: "./src/data_folder/picture/parts_leg/171_-_Part_icon_ACVI_VP-422.webp" },
-    { id: "172", name: "NACHTREIHER/42E", score: "5", src: "./src/data_folder/picture/parts_leg/172_-_Part_icon_ACVI_NACHTREIHER_42E.webp" },
-    { id: "173", name: "VE-42A", score: "5", src: "./src/data_folder/picture/parts_leg/173_-_Part_icon_ACVI_VE-42A.webp" },
-    { id: "174", name: "2C-2000 CRAWLER", score: "0", src: "./src/data_folder/picture/parts_leg/174_-_Part_icon_ACVI_2C-2000_CRAWLER.webp" },
-    { id: "175", name: "2C-3000 WRECKER", score: "2", src: "./src/data_folder/picture/parts_leg/175_-_Part_icon_ACVI_2C-3000_WRECKER.webp" },
-    { id: "176", name: "2S-5000 DESSERT", score: "4", src: "./src/data_folder/picture/parts_leg/176_-_Part_icon_ACVI_2S-5000_DESSERT.webp" },
-    { id: "177", name: "EL-TL-10 FIRMEZA", score: "1", src: "./src/data_folder/picture/parts_leg/177_-_Part_icon_ACVI_EL-TL-10_FIRMEZA.webp" },
-    { id: "178", name: "EL-PL-00 ALBA", score: "3", src: "./src/data_folder/picture/parts_leg/178_-_Part_icon_ACVI_EL-PL-00_ALBA.webp" },
-    { id: "179", name: "06-041 MIND ALPHA", score: "5", src: "./src/data_folder/picture/parts_leg/179_-_Part_icon_ACVI_EL-TL-10_FIRMEZA.webp" },
-    { id: "180", name: "IA-C01L: EPHEMERA", score: "0", src: "./src/data_folder/picture/parts_leg/180_-_Part_icon_ACVI_IA-C01L_EPHEMERA.webp" },
-    { id: "181", name: "IB-C03L: HAL 826", score: "3", src: "./src/data_folder/picture/parts_leg/181_-_Part_icon_ACVI_IB-C03L_HAL_826.webp" },
-    { id: "182", name: "KASUAR/42Z", score: "1", src: "./src/data_folder/picture/parts_leg/182_-_Part_icon_ACVI_KASUAR_42Z.webp" },
-    { id: "183", name: "RC-2000 SPRING CHICKEN", score: "0", src: "./src/data_folder/picture/parts_leg/183_-_Part_icon_ACVI_RC-2000_SPRING_CHICKEN.webp" },
-    { id: "184", name: "06-042 MIND BETA", score: "4", src: "./src/data_folder/picture/parts_leg/184_-_Part_icon_ACVI_06-042_MIND_BETA.webp" },
-    { id: "185", name: "LG-033M VERRILL", score: "4", src: "./src/data_folder/picture/parts_leg/185_-_Part_icon_ACVI_LG-033M_VERRILL.webp" },
-    { id: "186", name: "VP-424", score: "5", src: "./src/data_folder/picture/parts_leg/186_-_Part_icon_ACVI_VP-424.webp" },
-    { id: "187", name: "LAMMERGEIER/42F", score: "7", src: "./src/data_folder/picture/parts_leg/187_-_LAMMERGEIER-42F.webp" },
-    { id: "188", name: "LG-022T BORNEMISSZA", score: "8", src: "./src/data_folder/picture/parts_leg/188_-_Part_icon_ACVI_LG-022T_BORNEMISSZA.webp" },
-    { id: "189", name: "VE-42B", score: "8", src: "./src/data_folder/picture/parts_leg/189_-_Part_icon_ACVI_VE-42B.webp" },
-    { id: "190", name: "EL-TL-11 FORTALEZA", score: "7", src: "./src/data_folder/picture/parts_leg/190_-_Part_icon_ACVI_EL-TL-11_FORTALEZA.webp" }
+    { id: "167", name: "AL-J-121 BASHO", score: "1", src: "./src/data_folder/picture/parts_leg/166_-_Part_icon_ACVI_AL-J-121_BASHO.webp" },
+    { id: "168", name: "AL-J-121/RC JAILBREAK", score: "-1", src: "./src/data_folder/picture/parts_leg/167_-_Part_icon_ACVI_AL-J-121_RC_JAILBREAK.webp" },
+    { id: "169", name: "LG-011 MELANDER", score: "3", src: "./src/data_folder/picture/parts_leg/168_-_Part_icon_ACVI_LG-011_MELANDER.webp" },
+    { id: "170", name: "LG-012 MELANDER C3", score: "4", src: "./src/data_folder/picture/parts_leg/169_-_Part_icon_LG-012_MELANDER_C3.webp" },
+    { id: "171", name: "DF-LG-08 TIAN-QIANG", score: "4", src: "./src/data_folder/picture/parts_leg/170_-_Part_icon_ACVI_DF-LG-08_TIAN-QIANG.webp" },
+    { id: "172", name: "VP-422", score: "3", src: "./src/data_folder/picture/parts_leg/171_-_Part_icon_ACVI_VP-422.webp" },
+    { id: "173", name: "NACHTREIHER/42E", score: "5", src: "./src/data_folder/picture/parts_leg/172_-_Part_icon_ACVI_NACHTREIHER_42E.webp" },
+    { id: "174", name: "VE-42A", score: "5", src: "./src/data_folder/picture/parts_leg/173_-_Part_icon_ACVI_VE-42A.webp" },
+    { id: "175", name: "2C-2000 CRAWLER", score: "0", src: "./src/data_folder/picture/parts_leg/174_-_Part_icon_ACVI_2C-2000_CRAWLER.webp" },
+    { id: "176", name: "2C-3000 WRECKER", score: "2", src: "./src/data_folder/picture/parts_leg/175_-_Part_icon_ACVI_2C-3000_WRECKER.webp" },
+    { id: "177", name: "2S-5000 DESSERT", score: "4", src: "./src/data_folder/picture/parts_leg/176_-_Part_icon_ACVI_2S-5000_DESSERT.webp" },
+    { id: "178", name: "EL-TL-10 FIRMEZA", score: "1", src: "./src/data_folder/picture/parts_leg/177_-_Part_icon_ACVI_EL-TL-10_FIRMEZA.webp" },
+    { id: "179", name: "EL-PL-00 ALBA", score: "3", src: "./src/data_folder/picture/parts_leg/178_-_Part_icon_ACVI_EL-PL-00_ALBA.webp" },
+    { id: "180", name: "06-041 MIND ALPHA", score: "5", src: "./src/data_folder/picture/parts_leg/179_-_Part_icon_ACVI_EL-TL-10_FIRMEZA.webp" },
+    { id: "181", name: "IA-C01L: EPHEMERA", score: "0", src: "./src/data_folder/picture/parts_leg/180_-_Part_icon_ACVI_IA-C01L_EPHEMERA.webp" },
+    { id: "182", name: "IB-C03L: HAL 826", score: "3", src: "./src/data_folder/picture/parts_leg/181_-_Part_icon_ACVI_IB-C03L_HAL_826.webp" },
+    { id: "183", name: "KASUAR/42Z", score: "1", src: "./src/data_folder/picture/parts_leg/182_-_Part_icon_ACVI_KASUAR_42Z.webp" },
+    { id: "184", name: "RC-2000 SPRING CHICKEN", score: "0", src: "./src/data_folder/picture/parts_leg/183_-_Part_icon_ACVI_RC-2000_SPRING_CHICKEN.webp" },
+    { id: "185", name: "06-042 MIND BETA", score: "4", src: "./src/data_folder/picture/parts_leg/184_-_Part_icon_ACVI_06-042_MIND_BETA.webp" },
+    { id: "186", name: "LG-033M VERRILL", score: "4", src: "./src/data_folder/picture/parts_leg/185_-_Part_icon_ACVI_LG-033M_VERRILL.webp" },
+    { id: "187", name: "VP-424", score: "5", src: "./src/data_folder/picture/parts_leg/186_-_Part_icon_ACVI_VP-424.webp" },
+    { id: "188", name: "LAMMERGEIER/42F", score: "7", src: "./src/data_folder/picture/parts_leg/187_-_LAMMERGEIER-42F.webp" },
+    { id: "189", name: "LG-022T BORNEMISSZA", score: "8", src: "./src/data_folder/picture/parts_leg/188_-_Part_icon_ACVI_LG-022T_BORNEMISSZA.webp" },
+    { id: "190", name: "VE-42B", score: "8", src: "./src/data_folder/picture/parts_leg/189_-_Part_icon_ACVI_VE-42B.webp" },
+    { id: "191", name: "EL-TL-11 FORTALEZA", score: "7", src: "./src/data_folder/picture/parts_leg/190_-_Part_icon_ACVI_EL-TL-11_FORTALEZA.webp" }
 ];
 
 // 推進器
 export const booster = [
-    { id: "191", name: "AB-J-137 KIKAKU", score: "4", src: "./src/data_folder/picture/booster/191_-_Part_icon_ACVI_AB-J-137_KIKAKU.webp" },
-    { id: "192", name: "BST-G1/P10", score: "5", src: "./src/data_folder/picture/booster/192_-_Part_icon_ACVI_BST-G1_P10.webp" },
-    { id: "193", name: "BST-G2/P04", score: "2", src: "./src/data_folder/picture/booster/193_-_Part_icon_ACVI_BST-G2_P04.webp" },
-    { id: "194", name: "BST-G2/P06SPD", score: "5", src: "./src/data_folder/picture/booster/194_-_Part_icon_ACVI_BST-G2_P06SPD.webp" },
-    { id: "195", name: "ALULA/21E", score: "5", src: "./src/data_folder/picture/booster/195_-_Part_icon_ACVI_ALULA_21E.webp" },
-    { id: "196", name: "FLUEGEL/21Z", score: "5", src: "./src/data_folder/picture/booster/196_-_Part_icon_ACVI_FLUEGEL_21Z.webp" },
-    { id: "197", name: "BUERZEL/21D", score: "5", src: "./src/data_folder/picture/booster/197_-_Part_icon_ACVI_BUERZEL_21D.webp" },
-    { id: "198", name: "BC-0600 12345", score: "5", src: "./src/data_folder/picture/booster/198_-_Part_icon_ACVI_BC-0600_12345.webp" },
-    { id: "199", name: "BC-0400 MULE", score: "-1", src: "./src/data_folder/picture/booster/199_-_Part_icon_ACVI_BC-0400_MULE.webp" },
-    { id: "200", name: "BC-0200 GRIDWALKER", score: "4", src: "./src/data_folder/picture/booster/200_-_Part_icon_ACVI_BC-0200_GRIDWALKER.webp" },
-    { id: "201", name: "IA-C01B: GILLS", score: "1", src: "./src/data_folder/picture/booster/201_-_Part_icon_ACVI_IA-C01B_GILLS.webp" },
-    { id: "202", name: "IB-C03B: NGI 001", score: "4", src: "./src/data_folder/picture/booster/202_-_Part_icon_ACVI_IB-C03B_NGI_001.webp" }
+    { id: "192", name: "AB-J-137 KIKAKU", score: "4", src: "./src/data_folder/picture/booster/191_-_Part_icon_ACVI_AB-J-137_KIKAKU.webp" },
+    { id: "193", name: "BST-G1/P10", score: "5", src: "./src/data_folder/picture/booster/192_-_Part_icon_ACVI_BST-G1_P10.webp" },
+    { id: "194", name: "BST-G2/P04", score: "2", src: "./src/data_folder/picture/booster/193_-_Part_icon_ACVI_BST-G2_P04.webp" },
+    { id: "195", name: "BST-G2/P06SPD", score: "5", src: "./src/data_folder/picture/booster/194_-_Part_icon_ACVI_BST-G2_P06SPD.webp" },
+    { id: "196", name: "ALULA/21E", score: "5", src: "./src/data_folder/picture/booster/195_-_Part_icon_ACVI_ALULA_21E.webp" },
+    { id: "197", name: "FLUEGEL/21Z", score: "5", src: "./src/data_folder/picture/booster/196_-_Part_icon_ACVI_FLUEGEL_21Z.webp" },
+    { id: "198", name: "BUERZEL/21D", score: "5", src: "./src/data_folder/picture/booster/197_-_Part_icon_ACVI_BUERZEL_21D.webp" },
+    { id: "199", name: "BC-0600 12345", score: "5", src: "./src/data_folder/picture/booster/198_-_Part_icon_ACVI_BC-0600_12345.webp" },
+    { id: "200", name: "BC-0400 MULE", score: "-1", src: "./src/data_folder/picture/booster/199_-_Part_icon_ACVI_BC-0400_MULE.webp" },
+    { id: "201", name: "BC-0200 GRIDWALKER", score: "4", src: "./src/data_folder/picture/booster/200_-_Part_icon_ACVI_BC-0200_GRIDWALKER.webp" },
+    { id: "202", name: "IA-C01B: GILLS", score: "1", src: "./src/data_folder/picture/booster/201_-_Part_icon_ACVI_IA-C01B_GILLS.webp" },
+    { id: "203", name: "IB-C03B: NGI 001", score: "4", src: "./src/data_folder/picture/booster/202_-_Part_icon_ACVI_IB-C03B_NGI_001.webp" }
 ];
 
 // 火控系統
 export const fire_control_system = [
-    { id: "203", name: "FCS-G1/P01", score: "-1", src: "./src/data_folder/picture/fire_control_system/203_-_01_-_FCS-G1_P01.webp" },
-    { id: "204", name: "FCS-G2/P05", score: "2", src: "./src/data_folder/picture/fire_control_system/204_-_02_-_FCS-G2_P05.webp" },
-    { id: "205", name: "FCS-G2/P10SLT", score: "5", src: "./src/data_folder/picture/fire_control_system/205_-_03_-_FCS-G2_P10SLT.webp" },
-    { id: "206", name: "FCS-G2/P12SML", score: "0", src: "./src/data_folder/picture/fire_control_system/206_-_04_-_FCS-G2_P12SML.webp" },
-    { id: "207", name: "FC-006 ABBOT", score: "5", src: "./src/data_folder/picture/fire_control_system/207_-_05_-_FC-006_ABBOT.webp" },
-    { id: "208", name: "FC-008 TALBOT", score: "5", src: "./src/data_folder/picture/fire_control_system/208_-_06_-_FC-008_TALBOT.webp" },
-    { id: "209", name: "VE-21A", score: "4", src: "./src/data_folder/picture/fire_control_system/209_-_07_-_VE-21A.webp" },
-    { id: "210", name: "VE-21B", score: "1", src: "./src/data_folder/picture/fire_control_system/210_-_08_-_VE-21B.webp" },
-    { id: "211", name: "IA-C01F: OCELLUS", score: "5", src: "./src/data_folder/picture/fire_control_system/211_-_09_-_IA-C01F_OCELLUS.webp" },
-    { id: "212", name: "IB-C03F: WLT 001", score: "4", src: "./src/data_folder/picture/fire_control_system/212_-_IB-C03F_WLT_001.webp" }
+    { id: "204", name: "FCS-G1/P01", score: "-1", src: "./src/data_folder/picture/fire_control_system/203_-_01_-_FCS-G1_P01.webp" },
+    { id: "205", name: "FCS-G2/P05", score: "2", src: "./src/data_folder/picture/fire_control_system/204_-_02_-_FCS-G2_P05.webp" },
+    { id: "206", name: "FCS-G2/P10SLT", score: "5", src: "./src/data_folder/picture/fire_control_system/205_-_03_-_FCS-G2_P10SLT.webp" },
+    { id: "207", name: "FCS-G2/P12SML", score: "0", src: "./src/data_folder/picture/fire_control_system/206_-_04_-_FCS-G2_P12SML.webp" },
+    { id: "208", name: "FC-006 ABBOT", score: "5", src: "./src/data_folder/picture/fire_control_system/207_-_05_-_FC-006_ABBOT.webp" },
+    { id: "209", name: "FC-008 TALBOT", score: "5", src: "./src/data_folder/picture/fire_control_system/208_-_06_-_FC-008_TALBOT.webp" },
+    { id: "210", name: "VE-21A", score: "4", src: "./src/data_folder/picture/fire_control_system/209_-_07_-_VE-21A.webp" },
+    { id: "211", name: "VE-21B", score: "1", src: "./src/data_folder/picture/fire_control_system/210_-_08_-_VE-21B.webp" },
+    { id: "212", name: "IA-C01F: OCELLUS", score: "5", src: "./src/data_folder/picture/fire_control_system/211_-_09_-_IA-C01F_OCELLUS.webp" },
+    { id: "213", name: "IB-C03F: WLT 001", score: "4", src: "./src/data_folder/picture/fire_control_system/212_-_IB-C03F_WLT_001.webp" }
 ];
 
 // 發電機
 export const generators = [
-    { id: "213", name: "AG-J-098 JOSO", score: "-1", src: "./src/data_folder/picture/generators/213_-_01_-_AG-J-098_JOSO.webp" },
-    { id: "214", name: "AG-E-013 YABA", score: "4", src: "./src/data_folder/picture/generators/214_-_02_-_AG-E-013_YABA.webp" },
-    { id: "215", name: "AG-T-005 HOKUSHI", score: "5", src: "./src/data_folder/picture/generators/215_-_03_-_AG-T-005_HOKUSHI.webp" },
-    { id: "216", name: "DF-GN-02 LING-TAI", score: "-1", src: "./src/data_folder/picture/generators/216_-_04_-_DF-GN-02_LING-TAI.webp" },
-    { id: "217", name: "DF-GN-06 MING-TANG", score: "5", src: "./src/data_folder/picture/generators/217_-_05_-_DF-GN-06_MING-TANG.webp" },
-    { id: "218", name: "DF-GN-08 SAN-TAI", score: "4", src: "./src/data_folder/picture/generators/218_-_06_-_DF-GN-08_SAN-TAI.webp" },
-    { id: "219", name: "VP-20S", score: "0", src: "./src/data_folder/picture/generators/219_-_07_-_VP-20S.webp" },
-    { id: "220", name: "VP-20C", score: "4", src: "./src/data_folder/picture/generators/220_-_08_-_VP-20C.webp" },
-    { id: "221", name: "VP-20D", score: "5", src: "./src/data_folder/picture/generators/221_-_09_-_VP-20D.webp" },
-    { id: "222", name: "VE-20A", score: "0", src: "./src/data_folder/picture/generators/222_-_10_-_VE-20A.webp" },
-    { id: "223", name: "VE-20B", score: "5", src: "./src/data_folder/picture/generators/223_-_11_-_VE-20B.webp" },
-    { id: "224", name: "VE-20C", score: "5", src: "./src/data_folder/picture/generators/224_-_12_-_VE-20C.webp" },
-    { id: "225", name: "IA-C01G AORTA", score: "3", src: "./src/data_folder/picture/generators/225_-_13_-_IA-C01G_AORTA.webp" },
-    { id: "226", name: "IB-C03G NGI 000", score: "5", src: "./src/data_folder/picture/generators/226_-_14_-_IB-C03G_NGI_000.webp" }
+    { id: "214", name: "AG-J-098 JOSO", score: "-1", src: "./src/data_folder/picture/generators/213_-_01_-_AG-J-098_JOSO.webp" },
+    { id: "215", name: "AG-E-013 YABA", score: "4", src: "./src/data_folder/picture/generators/214_-_02_-_AG-E-013_YABA.webp" },
+    { id: "216", name: "AG-T-005 HOKUSHI", score: "5", src: "./src/data_folder/picture/generators/215_-_03_-_AG-T-005_HOKUSHI.webp" },
+    { id: "217", name: "DF-GN-02 LING-TAI", score: "-1", src: "./src/data_folder/picture/generators/216_-_04_-_DF-GN-02_LING-TAI.webp" },
+    { id: "218", name: "DF-GN-06 MING-TANG", score: "5", src: "./src/data_folder/picture/generators/217_-_05_-_DF-GN-06_MING-TANG.webp" },
+    { id: "219", name: "DF-GN-08 SAN-TAI", score: "4", src: "./src/data_folder/picture/generators/218_-_06_-_DF-GN-08_SAN-TAI.webp" },
+    { id: "220", name: "VP-20S", score: "0", src: "./src/data_folder/picture/generators/219_-_07_-_VP-20S.webp" },
+    { id: "221", name: "VP-20C", score: "4", src: "./src/data_folder/picture/generators/220_-_08_-_VP-20C.webp" },
+    { id: "222", name: "VP-20D", score: "5", src: "./src/data_folder/picture/generators/221_-_09_-_VP-20D.webp" },
+    { id: "223", name: "VE-20A", score: "0", src: "./src/data_folder/picture/generators/222_-_10_-_VE-20A.webp" },
+    { id: "224", name: "VE-20B", score: "5", src: "./src/data_folder/picture/generators/223_-_11_-_VE-20B.webp" },
+    { id: "225", name: "VE-20C", score: "5", src: "./src/data_folder/picture/generators/224_-_12_-_VE-20C.webp" },
+    { id: "226", name: "IA-C01G AORTA", score: "3", src: "./src/data_folder/picture/generators/225_-_13_-_IA-C01G_AORTA.webp" },
+    { id: "227", name: "IB-C03G NGI 000", score: "5", src: "./src/data_folder/picture/generators/226_-_14_-_IB-C03G_NGI_000.webp" }
 ];
 
 // 擴充功能
 export const OS_extension = [
-    { id: "227", name: "ASSAULT ARMOR", score: "0", src: "./src/data_folder/picture/OS_extension/227_-_ASSAULT_ARMOR.webp" },
-    { id: "228", name: "PULSE ARMOR", score: "0", src: "./src/data_folder/picture/OS_extension/228_-_PULSE_ARMOR.webp" },
-    { id: "229", name: "PULSE PROTECTION", score: "-1", src: "./src/data_folder/picture/OS_extension/229_-_PULSE_PROTECTION.webp" },
-    { id: "230", name: "TERMINAL ARMOR", score: "0", src: "./src/data_folder/picture/OS_extension/230_-_TERMINAL_ARMOR.webp" }
+    { id: "228", name: "ASSAULT ARMOR", score: "0", src: "./src/data_folder/picture/OS_extension/227_-_ASSAULT_ARMOR.webp" },
+    { id: "229", name: "PULSE ARMOR", score: "0", src: "./src/data_folder/picture/OS_extension/228_-_PULSE_ARMOR.webp" },
+    { id: "230", name: "PULSE PROTECTION", score: "-1", src: "./src/data_folder/picture/OS_extension/229_-_PULSE_PROTECTION.webp" },
+    { id: "231", name: "TERMINAL ARMOR", score: "0", src: "./src/data_folder/picture/OS_extension/230_-_TERMINAL_ARMOR.webp" }
 ];
+
